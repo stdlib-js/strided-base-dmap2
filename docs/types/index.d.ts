@@ -41,7 +41,7 @@ interface Routine {
 	* @param strideY - `y` stride length
 	* @param z - destination array
 	* @param strideZ - `z` stride length
-	* @param fcn - unary function to apply
+	* @param fcn - binary function to apply
 	* @returns `z`
 	*
 	* @example
@@ -58,7 +58,7 @@ interface Routine {
 	( N: number, x: Float64Array, strideX: number, y: Float64Array, strideY: number, z: Float64Array, strideZ: number, fcn: Binary ): Float64Array; // tslint:disable-line:max-line-length
 
 	/**
-	* Applies a binary function accepting and returning double-precision floating-point numbers to corresponding elements in two double-precision floating-point strided input arrays and assigns each result to an element in a double-precision floating-point strided output array alternative indexing semantics.
+	* Applies a binary function accepting and returning double-precision floating-point numbers to corresponding elements in two double-precision floating-point strided input arrays and assigns each result to an element in a double-precision floating-point strided output array using alternative indexing semantics.
 	*
 	* @param N - number of indexed elements
 	* @param x - input array
@@ -70,7 +70,7 @@ interface Routine {
 	* @param z - destination array
 	* @param strideZ - `z` stride length
 	* @param offsetZ - starting index for `z`
-	* @param fcn - unary function to apply
+	* @param fcn - binary function to apply
 	* @returns `z`
 	*
 	* @example
@@ -93,11 +93,11 @@ interface Routine {
 * @param N - number of indexed elements
 * @param x - input array
 * @param strideX - `x` stride length
-* @param y - destination array
+* @param y - input array
 * @param strideY - `y` stride length
 * @param z - destination array
 * @param strideZ - `z` stride length
-* @param fcn - unary function to apply
+* @param fcn - binary function to apply
 * @returns `z`
 *
 * @example
