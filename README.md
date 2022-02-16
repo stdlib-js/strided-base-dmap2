@@ -211,22 +211,6 @@ console.log( z );
 
 <!-- C usage documentation. -->
 
-<section class="installation">
-
-## Installation
-
-```bash
-npm install @stdlib/strided-base-dmap2
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-</section>
-
 <section class="usage">
 
 ### Usage
@@ -367,7 +351,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
