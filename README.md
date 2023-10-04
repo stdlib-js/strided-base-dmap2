@@ -50,13 +50,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-dmap2/tags). For example,
+
+```javascript
 import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@v0.1.1-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@deno/mod.js';
 ```
 
 #### dmap2( N, x, strideX, y, strideY, z, strideZ, fcn )
@@ -177,7 +182,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
-import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@v0.1.1-deno/mod.js';
+import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@deno/mod.js';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( -100, 100 ) );
 console.log( x );
