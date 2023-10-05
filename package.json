@@ -46,7 +46,7 @@
     "@stdlib/array-filled-by": "^0.1.0",
     "@stdlib/array-float64": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-ops-add": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-discrete-uniform": "^0.1.0",
