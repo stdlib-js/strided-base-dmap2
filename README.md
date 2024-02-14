@@ -50,13 +50,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@esm/index.mjs';
+import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@v0.2.0-esm/index.mjs';
 ```
 
 #### dmap2( N, x, strideX, y, strideY, z, strideZ, fcn )
@@ -182,7 +182,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@esm/index.mjs';
-import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@esm/index.mjs';
+import dmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dmap2@v0.2.0-esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( -100, 100 ) );
 console.log( x );
