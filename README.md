@@ -77,7 +77,7 @@ Applies a binary function to double-precision floating-point strided input array
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
 var y = new Float64Array( [ 2.0, 1.0, 3.0, -2.0, 4.0, 1.0, -1.0, 3.0 ] );
@@ -102,7 +102,7 @@ The `N` and `stride` parameters determine which strided array elements are acces
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0, -6.0 ] );
 var y = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ] );
@@ -116,7 +116,7 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 // Initial arrays...
 var x0 = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0, -6.0 ] );
@@ -138,7 +138,7 @@ Applies a binary function to double-precision floating-point strided input array
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0 ] );
 var y = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0 ] );
@@ -158,7 +158,7 @@ While [`typed array`][@stdlib/array/float64] views mandate a view offset based o
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = new Float64Array( [ -1.0, -2.0, -3.0, -4.0, -5.0, -6.0 ] );
 var y = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ] );
@@ -188,7 +188,7 @@ dmap2.ndarray( 3, x, 2, 1, y, -1, y.length-1, z, 1, 3, add );
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var Float64Array = require( '@stdlib/array-float64' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 var dmap2 = require( '@stdlib/strided-base-dmap2' );
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( -100, 100 ) );
@@ -373,7 +373,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
