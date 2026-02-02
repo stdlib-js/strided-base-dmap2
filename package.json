@@ -39,7 +39,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/strided-base-stride2offset": "^0.1.0",
+    "@stdlib/strided-base-stride2offset": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
