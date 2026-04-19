@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-19)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`fffff98`](https://github.com/stdlib-js/stdlib/commit/fffff98bdfb14bca5458ff90f607a17ce5269e19) - **bench:** refactor to use dynamic memory allocation in `strided/base/dmap2` [(#11567)](https://github.com/stdlib-js/stdlib/pull/11567) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-01)
